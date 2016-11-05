@@ -7,5 +7,6 @@ namespace BotLeaveRequest
 {
     public class Leave
     {
+       // public Enum LeaveOptions
     }
 }

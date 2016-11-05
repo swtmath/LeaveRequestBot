@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="testL3" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=BC02-PC\SQL2012_ENT;Initial Catalog=testL3;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="testL3ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[_Employee]" Member="_Employees">
+    <Type Name="_Employee">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Number" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Barcode" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UnitDrawing" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="Address1" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="Address2" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HandPhone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Religion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Hobby" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OverTimeStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OverTimeGroupId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BaseRateGroupId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="PointOfHire" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NPWP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NPWPDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fNPWP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AutoNumber" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Contact1" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="Contact2" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="Contact" Type="System.String" DbType="VarChar(1500)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PlaceOfBirth" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="BranchId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="OrganizationId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ClassId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BloodType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Height" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Ethnic" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IdNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IdNumberExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DrivingLicenseA" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DrivingLicenseAExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DrivingLicenseB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DrivingLicenseBExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DrivingLicenseC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DrivingLicenseCExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DrivingLicenseB1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DrivingLicenseB1Expire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DrivingLicenseB2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DrivingLicenseB2Expire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PaymentType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EffectiveDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ResignDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndEffectiveDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BasicSalaryType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BasicSalaryComponentId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="TaxStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fJPK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JPKDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fPensionFund" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PensionFundNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PensionFundDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PensionNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fPension" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JKK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JamSosTekNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="JamSosTekDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fJamSosTek" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClaimTaxType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LeaveCompensationTaxType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SourceType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FlexibleTime" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JamSosTekTaxType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeTaxStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EBasicSalary" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SignatureDrawing" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ResetPassword" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BegRSalaryNetto" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BegRPPH21" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PhoneExtension" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="RehireEmployeeId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="PensionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NPPJamsostekId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="fJHT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PayrollLastRunDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AttendanceLastRunDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HumanResourcesLastRunDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fBPJS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BPJSDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BPJSNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PaymentStartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BPJSFamily" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fForeign" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TaxCountryCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KITAS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="KITASExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Passport" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PassportExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fJP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JPDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FamilyCardNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FamilyCardNumberExpire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="JoinDateRehire" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FirstEmploymentDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HireType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="City1" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="City2" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ZipCode" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ZipCode1" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ZipCode2" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="EmailLinkage" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailPayslip" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[_EmployeeEmergeLeave]" Member="_EmployeeEmergeLeaves">
+    <Type Name="_EmployeeEmergeLeave">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Planning" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Claimed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnitType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LeaveId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="EffectiveDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OriginalExpiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Extended" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Expired" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ReferenceId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Calculate" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LeaveCodeId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="LeaveType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[_AttendanceCode]" Member="_AttendanceCodes">
+    <Type Name="_AttendanceCode">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IncludeDayOff" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Length" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DurationType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowMinusType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaxMinus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.fn_BloodType" Method="fn_BloodType" IsComposable="true">
+    <Parameter Name="Type" Parameter="type" Type="System.Int32" DbType="Int" />
+    <Return Type="System.String" />
+  </Function>
+  <Function Name="dbo.fn_FullName" Method="fn_FullName" IsComposable="true">
+    <Parameter Name="FirstName" Parameter="firstName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MiddleName" Parameter="middleName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="LastName" Parameter="lastName" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.String" />
+  </Function>
+  <Function Name="dbo.fn_Gender" Method="fn_Gender" IsComposable="true">
+    <Parameter Name="Type" Parameter="type" Type="System.Int32" DbType="Int" />
+    <Return Type="System.String" />
+  </Function>
+  <Function Name="dbo.fn_Religion" Method="fn_Religion" IsComposable="true">
+    <Parameter Name="Type" Parameter="type" Type="System.Int32" DbType="Int" />
+    <Return Type="System.String" />
+  </Function>
+</Database>
